@@ -41,9 +41,8 @@ function toggleDone(e) {
   populateList(items, itemsList);
 }
 
-function clearList(e) {
+function clearList() {
   localStorage.clear();
-  populateList(items, itemsList);
 }
 
 addItems.addEventListener('submit', addItem);
